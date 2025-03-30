@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function Home() {
   return (
     <div
@@ -9,7 +11,11 @@ function Home() {
         margin: '0 auto',
       }}
     >
-      Welcome to Next JS!
+      <h1> Hi There!</h1>
+      <p>Click the button bellow to login!</p>
+      <button type="button" className="btn btn-primary">
+        Sign In
+      </button>
     </div>
   );
 }
